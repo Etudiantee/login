@@ -1,0 +1,151 @@
+body{
+    background: white;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 3rem;
+    padding-top: 110px;
+    margin-top: 10px;
+    position: fixed;
+}
+
+.logo {
+    width: 250px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 1200px; /* Add margin to separate from other content */
+    height: 100px;
+    padding-bottom: 10px; /* Adjust as needed */
+    
+    
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -250px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #010101;   
+    margin-left: -350px;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    
+    
+}
+
+.detail {
+    
+   margin-top: 1px;
+    margin: 0.5rem 1rem;
+}
+
+.label {
+    font-weight: bold;
+    color: #010101;
+    font-size: 15px;
+}
+
+.value {
+    color: #010101;
+    font-size: 15px;
+}
+
+/* Table styles */
+
+.table-container {
+    position: relative;
+
+        width: 100%; /* Container width */
+       
+}
+.equipage-container {
+    margin-top: 20px; /* Adjust this value as needed */
+  }
+  .all {
+    position: relative;
+  }
+table {
+    width: 80%; /* Adjust as needed, considering padding and margins */
+    margin: 0 auto; /* Center the table horizontally */
+    background: white;
+    position: absolute;
+    
+  }
+th, td {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+tr {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.collapse-sign {
+    background-color: #007bff; /* Professional blue color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.collapse-sign:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
+.collapse-sign:active {
+    transform: translateY(1px); /* Slight downward movement when clicked */
+}
+
+input[type=text] {
+    border: none;
+    outline: none;
+    align-items: flex-start;
+    width: 65px;
+
+    
+}
+
+.text1{
+   width: 20px ;/* Adjust width to fill the table cell */
+   
+}
+.thead{
+    position: fixed;
+}
+.input-container {
+    margin: 10px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-container input::placeholder {
+    color: #999;
+}
+
+.input-container input:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 5px #66afe9;
+}
